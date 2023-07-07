@@ -1,0 +1,288 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>TechStore</title>
+<style>
+  section{
+    margin-bottom: 110px;
+  }
+</style>
+   
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <span class="fw-bold">
+                     <i class="bi bi-shop"></i>
+                     TechStore
+                </span>
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#Phones"><small>Phones</small></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#watch"><small>Watches</small></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#new"><small>New Arrivals</small></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#accessories">
+                     <small>Accessories</small>
+                    </a>
+              </div>
+            </div>
+      </nav>
+
+      <!--about us-->
+      <section id="intro">
+        <div class="container-lg ">
+             <div class="display-3">Welcome to Techstore</div>
+             <div class="display-6 text-muted">your one-stop destination for all your electronic needs.</div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        
+                    </h1>
+                    <p class="lead my-4 text-muted"> We are a leading electronics store committed to providing the latest and most innovative tech products to our valued customers. With our wide range of cutting-edge gadgets, exceptional customer service, and competitive prices, we strive to deliver an unparalleled shopping experience.</p>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                        <img class="img-fluid" src="assets/techstore.jpg" alt="ninja book">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--new arrivals-->
+      <section id="new">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>New Arrivals</h2>
+            </div>
+            <div class="row row-cols-3 row-cols-md-3">
+                
+                    <div class="card" style="width: 15rem;">
+                        <img src="/assets/headset.png" class="card-img-top" alt="headset">
+                        <div class="card-body">
+                            <h5 class="card-title">Beats Studio3</h5>
+                            <p class="card-text">Beats Studio3 Wireless Over-Ear Headphones</p>
+                            <a href="#" class="btn btn-secondary">Buy now</a>
+                        </div>
+                    </div>
+              
+              
+                <div class="card" style="width: 15rem;">
+                    <img src="/assets/powerbank.png" class="card-img-top" alt="headset">
+                    <div class="card-body">
+                        <h5 class="card-title">Power Bank</h5>
+                        <p class="card-text">Anker 325 Power Bank (PowerCore 20K)</p>
+                        <a href="#" class="btn btn-secondary">Buy now</a>
+                    </div>
+                
+              </div>
+              
+              <div class="card" style="width: 15rem;">
+                <img src="/assets/realme.png" class="card-img-top" alt="headset">
+                <div class="card-body">
+                  <h5 class="card-title">Realme</h5>
+                  <p class="card-text">Realme 11 Pro 5G (8+256GB)</p>
+                  <a href="#" class="btn btn-secondary">Buy now</a>
+                </div>
+              </div>
+              
+              <div class="card " style="width: 15rem;">
+                <img src="/assets/car charger.png" class="card-img-top" alt="headset">
+                <div class="card-body">
+                  <h5 class="card-title">Car Charger</h5>
+                  <p class="card-text">Wiwu CH-309 Transparent Magnetic Wireless Car Charger</p>
+                  <a href="#" class="btn btn-secondary">Buy now</a>
+                </div>
+              </div>
+            </div>      
+    </section>
+    
+<!--Phones-->
+<section id="Phones" class="mt-5">
+  <section id="ip13">
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+            <h1>
+                <div >iPhone 13 pro.</div>
+            </h1>
+            <p class="lead my-4 text-muted">A dramatically more powerful camera system. A display so responsive, every interaction feels new again. The world’s fastest smartphone chip. Exceptional durability. And a huge leap in battery life.
+              Let’s Pro.</p>
+            <a href="#" class="btn btn-secondary btn-lg">buy now</a>
+            <!--open sider/ offcanvas-->
+            <a href="#sidebar13" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebat">Learn More</a>
+        </div>
+        <div class="col-md-5 text-center d-none d-md-block">
+            <!--tooltip--> <!--in order for it to work we need JS-->
+            <span class="tt" data-bs-placement="bottom" title="ip13">   <!--this is not bootstrap class-->
+                <img class="img-fluid" src="/assets/ip13.png" alt="ip13 pro">
+            </span>
+        </div>
+    </div>
+  </div>
+  </section>
+
+<section id="ip14">
+  <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+              <h1>
+                  <div >iPhone 14 pro Max.</div>
+              </h1>
+              <p class="lead my-4 text-muted">A dramatically more powerful camera system. A display so responsive, every interaction feels new again. The world’s fastest smartphone chip. Exceptional durability. And a huge leap in battery life.
+                Let’s Pro.</p>
+              <a href="#" class="btn btn-secondary btn-lg">buy now</a>
+              <!--open sider/ offcanvas-->
+              <a href="#sidebar14" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebat">Learn More</a>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+              <!--tooltip--> <!--in order for it to work we need JS-->
+              <span class="tt" data-bs-placement="bottom" title="ip14 pro max">  
+                  <img class="img-fluid" src="/assets/ip14.jpg" alt="ip14">
+              </span>
+          </div>
+      </div>
+  </div>
+  </section>
+</section>
+
+<!--offcanvas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar13" aria-labelledby="sidebar-label">
+  <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">Iphone 13 pro</h5>
+      <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <p>
+         <strong>CPU:</strong> Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) <br>
+         <strong>GPU:</strong>	Apple GPU (5-core graphics) <br>
+         <strong>MEMORY:</strong> 128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM
+      </p>
+      <!--dropdown-->
+      <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">Available Colors:</button>
+          <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+             <li><a href="#ip13" class="dropdown-item">Silver</a></li>
+             <li><a href="#ip13" class="dropdown-item">Gold</a></li>
+          </ul>
+      </div>
+  </div>
+</div>
+
+<!--offcanvas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar14" aria-labelledby="sidebar-label">
+  <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">Iphone 14 pro Max</h5>
+      <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <p>
+         <strong>CPU:</strong> Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) <br>
+         <strong>GPU:</strong>	Apple GPU (5-core graphics) <br>
+         <strong>MEMORY:</strong> 128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM
+      </p>
+      <!--dropdown-->
+      <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">Available Colors:</button>
+          <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+             <li><a href="#ip14" class="dropdown-item">Deep purple</a></li>
+    
+          </ul>
+      </div>
+  </div>
+</div>
+
+<section id="watch">
+  <div class="card bg-dark">
+    <h2 class="display-2 text-light">apple watch</h2>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 text-center text-md-start">
+          <div class="card-body text-light">
+            <p class="text-muted display-5">available series:</p>
+            <ul class="display-6 text-muted">
+              <li>series 7 </li>
+              <li>series 8 </li>
+              <li>SE</li>
+              <li>Ultra</li>
+              <li>Nike</li>
+              <li>Hermès</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img src="/assets/R.png" alt="apple watch" height="300px" width="600px">
+        </div>     
+      </div>
+  </div>
+</section>
+
+<!--accessories-->
+<section id="accessories">
+  <div class="container-lg">
+    <div class="text-center">
+        <h2>Accessories</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="assets/band.png" class="card-img-top" alt="bands" height="230px" >
+      <div class="card-body">
+        <h5 class="card-title">apple watch band</h5>
+        <p class="card-text"> apple watch band fabric 38/40/41mm</p>
+        <a href="#" class="btn btn-secondary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/assets/airpod cover.png" class="card-img-top" alt="airpod cover" height="200px" >
+      <div class="card-body">
+        <h5 class="card-title">airpods cover</h5>
+        <p class="card-text">Santa Barbara Polo & Racquet Club Malik Airpods Pro case</p>
+        <a href="#" class="btn btn-secondary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/powerbank.png" class="card-img-top" alt="power bank" height="220px">
+      <div class="card-body">
+        <h5 class="card-title">Power Bank</h5>
+        <p class="card-text">Anker 325 Power Bank (PowerCore 20K)</p>
+        <a href="#" class="btn btn-secondary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/phone case.png" class="card-img-top" alt="phone case" height="270px">
+      <div class="card-body">
+        <h5 class="card-title">Phone Case</h5>
+        <p class="card-text">KEEPHONE Case for iPhone 14 Pro.</p>
+        <a href="#" class="btn btn-secondary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+     crossorigin="anonymous"></script>
+    
+</body>
+</html>
